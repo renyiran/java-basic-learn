@@ -9,7 +9,6 @@ public class QuickSort {
 
     /**
      * 一次排序，返回最终分割的
-     *
      */
     private static int partition(int[] array, int start, int end) {
         int i = start;
@@ -68,5 +67,4 @@ public class QuickSort {
         sortArray2(array, 0, array.length - 1);
         System.out.println("sorted array: " + Arrays.toString(array));
     }
-
 }

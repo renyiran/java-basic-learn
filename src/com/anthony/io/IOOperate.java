@@ -1,7 +1,6 @@
 package com.anthony.io;
 
 import java.io.*;
-import java.nio.charset.Charset;
 
 public class IOOperate {
     public static void main(String[] args) throws IOException {

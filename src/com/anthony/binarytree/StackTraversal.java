@@ -55,8 +55,22 @@ public class StackTraversal {
                 node = node.getLeftNode();
             }
         }
-        while (output.size() > 0) {
 
+//        Stack<Node> stack = new Stack<>();
+//        Stack<Node> outPut = new Stack<>();
+//        stack.push(node);
+//        while (!stack.isEmpty()) {
+//            node = stack.pop();
+//            outPut.push(node);
+//            if(node.getLeftNode() != null) {
+//                stack.push(node.getLeftNode());
+//            }
+//            if(node.getRightNode() != null) {
+//                stack.push(node.getRightNode());
+//            }
+//        }
+//
+        while (output.size() > 0) {
             BinaryTree.printNode(output.pop());
         }
     }
